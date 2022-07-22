@@ -1,10 +1,13 @@
 import React from "react";
 import shortid from 'shortid';
-
-
 import {ContactList} from 'components/ContactList/ContactList';
 import {ContactForm} from 'components/ContactForm/ContactForm';
 import {Filter} from 'components/Filter/Filter';
+
+
+
+
+
 
 export class App extends React.Component {
   state = {
