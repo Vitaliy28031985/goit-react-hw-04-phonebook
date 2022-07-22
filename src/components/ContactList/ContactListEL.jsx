@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import s from './ContactList.module.css';
 
 export const ContactListEL = ({id, name, number, onDeleteContact}) => {
@@ -15,10 +15,10 @@ Delete</button>
 )
 }
 
-ContactListEL.propTypes = {
-id: PropTypes.string.isRequired,
-name: PropTypes.string.isRequired,
-number: PropTypes.string.isRequired,
-onDeleteContact: PropTypes.func.isRequired,
+// ContactListEL.propTypes = {
+// id: PropTypes.string.isRequired,
+// name: PropTypes.string.isRequired,
+// number: PropTypes.string.isRequired,
+// onDeleteContact: PropTypes.func.isRequired,
 
-}
+// }
